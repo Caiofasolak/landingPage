@@ -1,0 +1,78 @@
+.App{
+    border: #391e4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #391e4f;
+}
+
+.formWrapper{
+    font-weight: 500;
+    padding-top: 35px;
+    background-color:#391e4f ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+.autWrapper{
+    line-height: 3;
+    background-color:#391e4f ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+
+.button{
+    border-style: none;
+    font-family: Montserrat;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: 600;
+    color: #391e4f;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.checkbox{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #391e4f;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 3px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background-color: white;
+}
+
+.autorizacao{
+    padding-left: 5px;
+    padding-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.aut{
+    padding-bottom: 25px;
+}

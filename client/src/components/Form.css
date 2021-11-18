@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+  }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.form input{
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    background-color: #391e4f;
+    color: #FFFFFF;
+}
+
+.prefix input{
+    line-height: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+.prefix .prefix-span{
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+.form + .form{
+    margin-top: 20px;
+}
